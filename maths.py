@@ -34,3 +34,6 @@ if __name__ == '__main__':
         assert mul(1, 0) == 0
         assert mul(0, 1) == 0
         assert mul(2, 6) == 12
+        assert puiss(0) == 0
+        assert puiss(1) == 1
+        assert puiss(-1) == 1
